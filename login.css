@@ -1,0 +1,163 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+	/*background: url(https://cloud.githubusercontent.com/assets/1489880/17008014/68ba5b9e-4ebb-11e6-9a8c-3bb6bbb16b55.jpg) no-repeat center center fixed;*/
+	background: url(https://cloud.githubusercontent.com/assets/1489880/17008015/68bcb51a-4ebb-11e6-834e-2274da04acc8.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #FFF;
+    display: flex;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    justify-content: center;
+
+}
+
+.login_box {
+	min-width: 340px;
+    border: 1px solid #F1F1F1;
+    /*border-left: none;*/
+    /*border-right: none;*/
+    letter-spacing: .15em;
+    line-height: 20px;
+    margin-top: 10em;
+    /*padding: 10px;*/
+    background-color: rgba(255,255,255,0.233);
+
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: .8em;
+	border-bottom: 1px solid #F1F1F1;
+	letter-spacing: 4px;
+}
+
+input {
+	display: block;
+	width: calc(100% - 20px);
+	border: 1px solid #F1F1F1;
+	font-size: 1.2em;
+	color: #FFF;
+	padding: 10px;
+	margin: 0 10px 20px;
+	background-color: rgba(255,255,255,.0);
+	transition: border-color .5s ease;
+	visibility: visible;
+	transition: color .5s ease,
+				border-color .5s ease;
+}
+input[type="submit"] {
+	width: 50%;
+	display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	color: #22CEA8;
+}
+
+
+input:hover,
+input:focus {
+	border-color: #22CEA8;
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+   color: #BBBBBB;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: #BBBBBB;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #BBBBBB;  
+}
+
+input:-ms-input-placeholder {  
+   color: #BBBBBB;  
+}
+
+#login_name + span,
+#user_password + span {
+	position: relative;
+	float: right;
+	right: 30px;
+	top: -50px;
+	font-size: 1.2em;
+	font-family: 'FontAwesome';
+	transition: color .5s ease;
+}
+#login_name:hover + span,
+#user_password:hover + span {
+		color: #22CEA8;
+}
+
+#login_name + span::after {
+	content: '\f007';
+}
+#user_password + span::after {
+	content: '\f023';
+}
+
+label {
+	letter-spacing: 0;
+	font-size: .8em;
+	float: right;
+	display: inline-block;
+	transition: color .5s ease
+				;
+}
+
+label:hover,
+label:focus {
+	color: #22CEA8;
+}
+
+input[type="checkbox"] {
+	/*margin: 5px auto;*/
+	/*width: 30%;*/
+	display: none;
+}
+
+input[type="checkbox"] + span {
+	width: 17px;
+	height: 17px;
+	border: 1px solid #F1F1F1;
+	background-color: rgba(255,255,255,.0);
+	/*width: 30%;*/
+	margin: 5px auto;
+	display: block;
+	transition: border-color .5s ease,
+				background-color .5s ease;
+}
+input[type="checkbox"]:checked + span {
+	background-color: #FFF;
+}
+
+
+
+input[type="checkbox"]:hover + span,
+input[type="checkbox"]:focus + span,
+input[type="checkbox"]:hover + span,
+input[type="checkbox"]:focus + span {
+	border-color: #22CEA8;
+}
+
+
+
+
+
+
