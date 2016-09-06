@@ -151,7 +151,7 @@ input[type="checkbox"] + span {
 }
 
 .navigation a {
-  display: inline-block;
+  display: block;
   padding: 20px 180px;
   text-decoration: none;
   font-family: sans-serif;
