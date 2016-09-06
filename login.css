@@ -143,6 +143,29 @@ input[type="checkbox"] + span {
 	transition: border-color .5s ease,
 				background-color .5s ease;
 }
+.navigation {
+  margin-top: 2em;
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 20px 180px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  background: 
+    linear-gradient(
+      to bottom right, 
+      rgba(139,125,239, 0.65), rgba(59,153,239, .65)
+    );
+}
 input[type="checkbox"]:checked + span {
 	background-color: #FFF;
 }
@@ -155,6 +178,8 @@ input[type="checkbox"]:hover + span,
 input[type="checkbox"]:focus + span {
 	border-color: #22CEA8;
 }
+
+
 
 
 
