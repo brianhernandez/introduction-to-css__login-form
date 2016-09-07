@@ -157,14 +157,14 @@ input[type="checkbox"]:focus + span {
 	border-color: #22CEA8;
 }
 
-.navigation {
+#navigation {
   margin-top: 15em;
   list-style: none;
   text-align: center;
   padding-left: 0;
 }
 
-.navigation a {
+#navigation a {
   display: inline-block;
   padding: 20px 180px;
   text-decoration: none;
@@ -172,8 +172,8 @@ input[type="checkbox"]:focus + span {
   color: #fff;
 }
 
-.navigation a:hover,
-.navigation a:focus {
+#navigation a:hover,
+#navigation a:focus {
   background: 
     linear-gradient(
       to bottom right, 
